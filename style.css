@@ -1,0 +1,28 @@
+.header {
+   background-color: #1F2937; 
+   color: #F9FAF8;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #F9FAF8;
+  }
+
+a:visited {
+    text-decoration: none;
+    color: #F9FAF8;
+  }
+
+a:hover {
+    text-decoration: none;
+    color: #3882F6;
+}
