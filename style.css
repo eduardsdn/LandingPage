@@ -47,6 +47,7 @@ a:hover {
 }
 
 .content1-left {
+    display: flex;
     flex-direction: column;
     width: 500px;
     margin: 0%;
@@ -58,6 +59,7 @@ a:hover {
     font-weight: bold;
     color: #F9FAF8;
     margin: 0%;
+    margin-bottom: 10px;
 }
 
 .content1-left p {
@@ -87,5 +89,16 @@ a:hover {
     width: 600px;
     height: 200px;
     margin: 0%;
+    border-radius: 8px;
+}
+
+.content2 {
+    display: flex;
+}
+
+.content2 img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
     border-radius: 8px;
 }
