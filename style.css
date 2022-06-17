@@ -198,3 +198,12 @@ a:hover {
     border: 2px solid #F9FAF8;
     border-radius: 8px;
 }
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+}
