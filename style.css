@@ -149,3 +149,52 @@ a:hover {
     align-self: flex-end;
     
 }
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.content4-parent {
+    display: flex;
+    width:830px;
+    height: 100px;
+    background-color:#3882F6;
+    border-radius: 8px;
+    padding: 70px;
+    justify-content: space-around;
+}
+
+.content4-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content4-title {
+    font-size: 30px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.content4-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content4-right {
+    display: flex;
+    align-items: center;
+}
+.content4-button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
