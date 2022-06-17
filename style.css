@@ -121,8 +121,10 @@ a:hover {
     border-radius: 8px;
 }
 
-.card1 .card2 .card3 .card4{
+
+.card1, .card2, .card3,.card4 {
     width: 200px;
+    text-align: center;
 }
 
 .content2-text {
