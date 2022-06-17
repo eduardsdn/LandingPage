@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 15px;
+    
 }
 
 .header h1 {
@@ -94,6 +95,23 @@ a:hover {
 
 .content2 {
     display: flex;
+    flex-direction: column;
+    padding: 200px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.content2-title {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 20px;
+}
+
+.content2-cards {
+    display: flex;
+    justify-content: space-around;
 }
 
 .content2 img{
@@ -101,4 +119,14 @@ a:hover {
     height: 200px;
     border: 3px solid #3882F6;
     border-radius: 8px;
+}
+
+.card1 .card2 .card3 .card4{
+    width: 200px;
+}
+
+.content2-text {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
